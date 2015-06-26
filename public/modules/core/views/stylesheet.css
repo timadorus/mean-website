@@ -1,0 +1,14 @@
+#header-logo {
+	background: url(modules/core/img/brand/timadorus-logobig.png) no-repeat;
+	min-height: 160px;
+	margin: 15px 0 0 0;
+	top:5000px;
+}
+
+#site-title {
+	margin-left: 154px;
+}
+
+#site-description {
+	margin: 0 270px 3.65625em 154px;
+}
