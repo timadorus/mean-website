@@ -8,12 +8,7 @@ Version:        1.1
 */
 
 /* We must first include the original css from the parent theme */
-@import url("../twentyeleven/style.css");
 
-#header-logo {
-	background: url(modules/core/img/brand/timadorus-logobig.png) no-repeat;
-	min-height: 160px;
-	margin-left: 300px;
 }
 
 #site-title {
