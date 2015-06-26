@@ -5,6 +5,10 @@ angular.module('articles').config(['$stateProvider',
 	function($stateProvider) {
 		// Articles state routing
 		$stateProvider.
+		state('mmo', {
+			url: '/mmo',
+			templateUrl: 'modules/articles/views/mmo.client.view.html'
+		}).
 		state('listArticles', {
 			url: '/articles',
 			templateUrl: 'modules/articles/views/list-articles.client.view.html'
