@@ -1,20 +1,88 @@
-/*
-Theme Name:     Timadorus: Twenty Eleven Child
-Theme URI:      http://futurewebblog.com/add-sidebar-support-posts-twenty-eleven-theme/
-Description:    Child theme for the Twenty Eleven which includes support for sidebars on posts and pages
-Author:         Chris Aprea
-Template:      twentyeleven
-Version:        1.1
-*/
-
-/* We must first include the original css from the parent theme */
-
-}
-
 #site-title {
 	margin-left: 154px;
 }
 
 #site-description {
 	margin: 0 270px 3.65625em 154px;
+}
+html {
+    border: 0px none;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0px;
+    outline: 0px none;
+    padding: 0px;
+    vertical-align: baseline;
+    font-family: inherit;
+}
+body {
+    background: #E2E2E2 none repeat scroll 0% 0%;
+}
+body, input, textarea {
+    color: #373737;
+    font: 300 15px/1.625 "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+body {
+    padding: 0px 2em;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0px none;
+    font-family: inherit;
+    vertical-align: baseline;
+    padding: 0px;
+    outline: 0px none;
+    margin: 0px;
+}
+#page {
+    background: #FFF none repeat scroll 0% 0%;
+}
+#page {
+    margin: 2em auto;
+    max-width: 1000px;
+}
+#main {
+    clear: both;
+    padding: 1.625em 0px 0px;
+}
+.center {
+	margin-right: 1000px;
+	
+	
+}
+p {
+    margin-bottom: 1.625em;
+}
+#content {
+    margin: 0px 34% 0px 7.6%;
+    width: 58.4%;
+}
+.entry-title {
+    clear: both;
+    color: #222;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.5em;
+    padding-bottom: 0.3em;
+    padding-top: 15px;
+}
+.entry-title, .entry-header .entry-meta {
+    padding-right: 76px;
+}
+.entry-content h1, .entry-content h2, .comment-content h1, .comment-content h2 {
+    color: #000;
+    font-weight: bold;
+    margin: 0px 0px 0.8125em;
+}
+h2 {
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    border: 0px none;
+    font-family: inherit;
+    vertical-align: baseline;
+    padding: 0px;
+    outline: 0px none;
+    margin: 0px;
 }
